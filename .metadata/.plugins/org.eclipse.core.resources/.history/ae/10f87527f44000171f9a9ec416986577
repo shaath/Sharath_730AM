@@ -1,0 +1,17 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+
+public class WebdriverWaitEg {
+
+	public static void main(String[] args) 
+	{
+		WebDriver driver=new WebDriver();
+		driver.get("https://www.24hourfitness.com/");
+		driver.manage().window().maximize();
+		
+		
+
+	}
+
+}

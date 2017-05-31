@@ -1,0 +1,12 @@
+package junit;
+
+public class LinksCheck extends JunitMaster
+{
+
+	public static void main(String[] args) 
+	{
+		driver.fi
+
+	}
+
+}

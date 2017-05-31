@@ -1,0 +1,13 @@
+Feature: Check Login and Logout 
+
+	Scenario: Login Test
+		Given Browser launched and navigated to url
+		When Tester Enters username and password
+		And Clicks on login
+		Then Welcome Admin Message displayed
+		
+	Scenario: Logout 
+		When Tester Clicks on Welcome Admin
+		And also Clicks on logout
+		Then Display home page	
+		

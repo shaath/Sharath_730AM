@@ -1,0 +1,17 @@
+package junit;
+
+import org.junit.BeforeClass;
+import org.openqa.selenium.WebDriver;
+
+import pom.WebdriverWaitEg;
+
+public class JunitMaster
+{
+	public static WebDriver driver;
+	@BeforeClass
+	public static void primus_Launch()
+	{
+		
+	}
+
+}
